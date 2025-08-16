@@ -157,7 +157,6 @@ pytest tests/
 
 - **Issues:** GitHub Issues tab
 - **Discussions:** GitHub Discussions
-- **Email:** Financially Free team
 
 ---
 
@@ -170,12 +169,13 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
 ## 🙏 Acknowledgments
 
 - **Ministry of Road Transport & Highways, Govt. of India** – Vahan data
-- **Financially Free Team** – Educational vision & sponsorship
+- **Financially Free Team** – Educational vision
 - **Open Source Community** – Libraries & tools
 
 ---
 
 **Built with ❤️ for Financially Free – Empowering practical investment education**
+
 
 
 
