@@ -1,15 +1,14 @@
 # 🚗 Vehicle Registration Dashboard 
 
 An interactive dashboard for analyzing vehicle registration trends in India, built for **Financially Free**.  
-This project showcases backend development, data integration, and investment-focused analytics as part of the Backend Developer Internship submission.
 
 ---
 
 ## 👤 Candidate Information
 - **Name:** Ishank Pandey  
-- **Email:** ishankp3@gmail.com   
+- **Email:** ishankp3@gmail.com    
 - **Company:** Financially Free  
-- **Submission Date:** 16/8/2025
+- **Submission Date:** 16/8/2025  
 
 ---
 
@@ -67,7 +66,7 @@ It supports **Financially Free's mission of investment education** by delivering
 ```bash
 # Clone repository
 git clone https://github.com/ISHANK1313/Vehicle-Dashboard.git
-cd vehicle-dashboard
+cd Vehicle-Dashboard
 
 # Setup virtual environment
 python -m venv venv
@@ -76,5 +75,107 @@ venv\Scripts\activate       # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+### Run the Dashboard
+
+```bash
+streamlit run vehicle_dashboard.py
+```
+
+- Opens at: `http://localhost:8501`
+- First run generates sample data
+- Click **🔄 Refresh Data** to fetch real-time records
+
+---
+
+## 📁 Code Structure
+
+```
+vehicle-dashboard/
+├── vehicle_dashboard.py   # Main application
+├── data_processor.py      # Analytics engine
+├── config.py              # Configuration settings
+├── test_dashboard.py      # Unit tests
+├── deploy.py              # Deployment script
+├── requirements.txt       # Dependencies
+└── README.md              # Documentation
+```
+
+---
+
+## 🔧 Configuration
+
+Create `.env` in project root:
+
+```env
+DATABASE_PATH=vehicle_data.db
+REQUEST_TIMEOUT=30
+MAX_RETRIES=3
+DATA_REFRESH_INTERVAL=3600
+HEADLESS_BROWSER=true
+CHROME_OPTIONS=--no-sandbox,--disable-dev-shm-usage
+```
+
+---
+
+## 📊 Dashboard Sections
+
+- **Overview** – Total registrations, growth rates, top segments
+- **Growth Analysis** – YoY & QoQ performance
+- **Manufacturer Performance** – Market share, rankings
+- **Geographic Analysis** – State-wise trends
+- **Trends & Forecasting** – Seasonal & historical patterns
+
+---
+
+**Status: PRODUCTION READY ✅**
+
+---
+
+## 🧪 Testing
+
+```bash
+# Install test tools
+pip install pytest
+
+# Run test suite
+pytest tests/
+```
+
+---
+
+## ⚠️ Disclaimers
+
+- Built **for educational purposes only** – Not financial advice
+- Uses **official Vahan Dashboard data**
+- Sample data generated when live scraping unavailable
+
+---
+
+## 📞 Support
+
+- **Issues:** GitHub Issues tab
+- **Discussions:** GitHub Discussions
+- **Email:** Financially Free team
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- **Ministry of Road Transport & Highways, Govt. of India** – Vahan data
+- **Financially Free Team** – Educational vision & sponsorship
+- **Open Source Community** – Libraries & tools
+
+---
+
+**Built with ❤️ for Financially Free – Empowering practical investment education**
+
 
 
